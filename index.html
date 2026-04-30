@@ -7,16 +7,17 @@
             <div class="team">
                 <h3>HOME</h3>
                 <p id="homepoints" class="score-display">0</p>
+                <div class="buttons">
                     <button onclick="addPoints('home', 1)">+1</button>
                     <button onclick="addPoints('home', 2)">+2</button>
                     <button onclick="addPoints('home', 3)">+3</button>
                 </div>
             </div>
-            <div class="team">
-                <button onclick="reset()">RESET</button>
+            <div class="buttons">
+            <button onclick="resetpoints()">Reset</button>
             </div>
             <div class="team">
-                <h3>AWAY</h3>
+                <h3>GUEST</h3>
                 <p id="guestpoints" class="score-display">0</p>
                 <div class="buttons">
                     <button onclick="addPoints('guest', 1)">+1</button>
